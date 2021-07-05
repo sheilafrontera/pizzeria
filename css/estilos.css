@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    gap: 20px;
+}
+
+
+/*******Header*******/
+header, footer {
+    background-color: black;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+    margin: 0 auto;
+    height: 110px;
+}
+h1 {
+    color: white;
+    margin: 20px;
+}
+.pizza {
+    color: #39B24A;
+}
+.front {
+    color: #FC200C;
+}
+.titulo-logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+ul li {
+    margin: 10px;
+}
+
+/*******Main*******/
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 95%;
+    margin: 150px auto;
+    align-items: center;
+}
+.envio-gratis {
+    color: #FC200C;
+    position: absolute;
+    margin: 15px 20px;
+}
+.comprando {
+    color: white;
+}
+.img-deli {
+    position: relative;
+}
+.foto-deli {
+    border-radius: 5px;
+}
+.podio-pizzas {
+    background-color: white;
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+    position: relative;
+}
+.div-container {
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+
+}
+ol li {
+    font-weight: bold;
+    margin: 10px;
+    }
+h3 { 
+    margin: 0 0 20px 0;
+
+}
+h2 {
+    color: #FC200C;
+    text-align: center;
+    margin: 30px;
+}
+.pizzafall {
+    position: absolute;
+    right: 70px;
+    top: 140px;
+}
+
+/*******Footer*******/
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
